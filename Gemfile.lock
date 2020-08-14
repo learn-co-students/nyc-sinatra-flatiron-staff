@@ -17,6 +17,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (6.0.4)
+    bigdecimal (1.4.2)
     bond (0.5.1)
     builder (3.2.3)
     capybara (3.6.0)
@@ -106,6 +107,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 4.2.5)
+  bigdecimal (= 1.4.2)
   capybara
   pry
   rack-test
